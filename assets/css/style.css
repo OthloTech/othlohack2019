@@ -47,11 +47,15 @@ section h2 {
   margin-bottom: 2em; }
 
 #intro p {
-  color: #333333;
+  margin-bottom: 2em;
+  color: #222222;
   font-size: 1.05rem;
-  line-height: 2; }
+  line-height: 2;
+  text-align: justify;
+  text-justify: inter-ideograph; }
 
 #info h3 {
+  margin-right: -0.5em;
   font-size: 1rem;
   letter-spacing: 0.5em;
   line-height: 1.8;
@@ -61,6 +65,9 @@ section h2 {
   font-size: 1.6rem;
   font-weight: bold; }
 
+#info p.red {
+  color: #ee0101; }
+
 #schedule h3 {
   font-size: 1.1rem;
   font-weight: bold; }
@@ -68,9 +75,13 @@ section h2 {
 #schedule table {
   font-size: 1.1rem; }
   #schedule table tr {
-    line-height: 2; }
+    line-height: 2.3; }
   #schedule table th {
     padding: 0 2em 0 0; }
+
+@media screen and (min-width: 768) {
+  #schedule table {
+    font-size: 1rem; } }
 
 #qa h4 {
   font-size: 1.2rem;
@@ -81,6 +92,13 @@ section h2 {
 #qa p {
   font-size: 1.05rem;
   line-height: 1.6; }
+
+footer {
+  width: 100%;
+  padding: 3em 0; }
+  footer h5 {
+    font-size: 1.3rem;
+    margin-bottom: 1em; }
 
 .bg-gray {
   color: #222222;
